@@ -11,4 +11,9 @@ contract ValueCheckerTest is DSSTest {
         ValueChecker checker = new ValueChecker();
         assertEq(checker.value(), 1);
     }
+
+    function testValue2() public {
+        ValueChecker checker = new ValueChecker();
+        assertEq(checker.value2(), 5);
+    }
 }
