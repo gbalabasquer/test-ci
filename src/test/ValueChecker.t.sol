@@ -9,6 +9,6 @@ import "../ValueChecker.sol";
 contract ValueCheckerTest is DSSTest {
     function testValue() public {
         ValueChecker checker = new ValueChecker();
-        assertEq(checker.value(), 1);
+        assertEq(checker.value(), 2);
     }
 }
